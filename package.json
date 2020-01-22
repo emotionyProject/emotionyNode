@@ -1,0 +1,17 @@
+{
+  "name": "emotionserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "star-dev": "node -r esm server.js",
+    "start": "node  -r esm server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1"
+  }
+}
